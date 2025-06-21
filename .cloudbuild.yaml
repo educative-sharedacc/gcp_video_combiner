@@ -16,4 +16,4 @@ steps:
 images:
   - 'gcr.io/$PROJECT_ID/video-combiner'
 
-logsBucket: gs://your-project-id-build-logs
+logsBucket: gs://mineral-trainer-462918-i9-build-logs
