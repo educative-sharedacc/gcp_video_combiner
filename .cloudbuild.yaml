@@ -16,5 +16,4 @@ steps:
 images:
   - 'gcr.io/$PROJECT_ID/video-combiner'
 
-options:
-  logging: CLOUD_LOGGING_ONLY
+logsBucket: gs://your-project-id-build-logs
