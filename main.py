@@ -6,7 +6,7 @@ from google.cloud import storage
 
 app = Flask(__name__)
 
-BUCKET_NAME = 'your-output-bucket-name'
+BUCKET_NAME = 'veo_output_bucket/combined-videos'
 
 def download_media(url, output_path):
     ydl_opts = {'outtmpl': output_path, 'quiet': True, 'format': 'best[ext=mp4]/best'}
