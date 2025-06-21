@@ -1,0 +1,5 @@
+flask
+moviepy
+yt_dlp
+google-cloud-storage
+gunicorn
